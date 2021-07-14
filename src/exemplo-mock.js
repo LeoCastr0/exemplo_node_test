@@ -12,7 +12,12 @@ function aguardarTimer (callback) {
   }, 3000)
 }
 
+function somar(a, b) {
+  return parseInt(a + b)
+}
+
 module.exports = {
   realizarParaAdultos,
-  aguardarTimer
+  aguardarTimer,
+  somar
 }
