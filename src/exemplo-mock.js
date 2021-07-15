@@ -12,12 +12,18 @@ function aguardarTimer (callback) {
   }, 3000)
 }
 
+function somar(a, b) {
+  return parseInt(a + b)
+}
+
 function subtrair (a, b) {
   return parseInt(a - b)
 }
 
+
 module.exports = {
   realizarParaAdultos,
   aguardarTimer,
-  subtrair
+  subtrair,
+  somar
 }
